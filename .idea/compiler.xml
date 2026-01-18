@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="micronaut.processing.annotations" value="org.home.javafx.*" />
+        <option name="micronaut.processing.group" value="org.home.javafx" />
+        <option name="micronaut.processing.incremental" value="true" />
+        <option name="micronaut.processing.module" value="mvci-gui" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-processor/4.10.13/9474b3056a300ec4350574612819292dbf4bae3b/micronaut-core-processor-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.sourcegen/micronaut-sourcegen-bytecode-writer/1.8.4/e214992f6f61e193c0c9788ab0b269d617dbb21c/micronaut-sourcegen-bytecode-writer-1.8.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.sourcegen/micronaut-sourcegen-model/1.8.4/6cd7d8132610e6502fa9cb1a96895c8411cd22b6/micronaut-sourcegen-model-1.8.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject-java/4.10.13/e23b01f841cb79029acde2783a553a3e8d6f211b/micronaut-inject-java-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/4.10.13/218497e542e4b31549c4dc86f03c39d0c7b208a9/micronaut-aop-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/4.10.13/3845553807ab2f3003281dc2adbafa72b54dd4e5/micronaut-inject-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.27.0/cfdcd06359cd1c502ba0564d76a1288f2dbabbaa/javaparser-symbol-solver-core-3.27.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/4.10.13/5916f78da583756b2b7bc981032e552245be5fa1/micronaut-core-reactive-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/4.10.13/48f3cb954d53f195412939cfb3b5118672878fd4/micronaut-core-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.17/d9e58ac9c7779ba3bf8142aff6c830617a7fe60f/slf4j-api-2.0.17.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.8/36e4d212970388e5bd2c5180292012502df461bb/asm-commons-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.8/395f1c1f035258511f27bc9b2583d76e4b143f59/asm-util-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.8/b9747a320844b6cb1eacd90d8ecfd260a16c01d3/asm-analysis-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.8/18419ca5b77a2f81097c741e7872e6ab8d2f40d/asm-tree-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.8/dc19ecb3f7889b7860697215cae99c0f9b6f6b4b/asm-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.27.0/d9046a138aac01fd6b5ed78e5cb8e4081d46b814/javaparser-core-3.27.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.49.4/dab18d65562ddd27ca08daf5da04bfe993246648/checker-qual-3.49.4.jar" />
+        </processorPath>
+        <module name="intro-fxml.mvci-gui.main" />
+        <module name="intro-fxml.mvci-gui.test" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="micronaut.processing.annotations" value="org.home.javafx.*" />
+        <option name="micronaut.processing.group" value="org.home.javafx" />
+        <option name="micronaut.processing.incremental" value="true" />
+        <option name="micronaut.processing.module" value="domain-service" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-processor/4.10.13/9474b3056a300ec4350574612819292dbf4bae3b/micronaut-core-processor-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.sourcegen/micronaut-sourcegen-bytecode-writer/1.8.4/e214992f6f61e193c0c9788ab0b269d617dbb21c/micronaut-sourcegen-bytecode-writer-1.8.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut.sourcegen/micronaut-sourcegen-model/1.8.4/6cd7d8132610e6502fa9cb1a96895c8411cd22b6/micronaut-sourcegen-model-1.8.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject-java/4.10.13/e23b01f841cb79029acde2783a553a3e8d6f211b/micronaut-inject-java-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/4.10.13/218497e542e4b31549c4dc86f03c39d0c7b208a9/micronaut-aop-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/4.10.13/3845553807ab2f3003281dc2adbafa72b54dd4e5/micronaut-inject-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-symbol-solver-core/3.27.0/cfdcd06359cd1c502ba0564d76a1288f2dbabbaa/javaparser-symbol-solver-core-3.27.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/4.10.13/5916f78da583756b2b7bc981032e552245be5fa1/micronaut-core-reactive-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/4.10.13/48f3cb954d53f195412939cfb3b5118672878fd4/micronaut-core-4.10.13.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.17/d9e58ac9c7779ba3bf8142aff6c830617a7fe60f/slf4j-api-2.0.17.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.8/36e4d212970388e5bd2c5180292012502df461bb/asm-commons-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.8/395f1c1f035258511f27bc9b2583d76e4b143f59/asm-util-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.8/b9747a320844b6cb1eacd90d8ecfd260a16c01d3/asm-analysis-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.8/18419ca5b77a2f81097c741e7872e6ab8d2f40d/asm-tree-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.8/dc19ecb3f7889b7860697215cae99c0f9b6f6b4b/asm-9.8.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.27.0/d9046a138aac01fd6b5ed78e5cb8e4081d46b814/javaparser-core-3.27.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.49.4/dab18d65562ddd27ca08daf5da04bfe993246648/checker-qual-3.49.4.jar" />
+        </processorPath>
+        <module name="intro-fxml.domain-service.main" />
+        <module name="intro-fxml.domain-service.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="25" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="intro-fxml.app" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
+      <module name="intro-fxml.app.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
+      <module name="intro-fxml.app.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
+      <module name="intro-fxml.domain-service" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
+      <module name="intro-fxml.domain-service.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
+      <module name="intro-fxml.domain-service.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
+      <module name="intro-fxml.list" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
+      <module name="intro-fxml.list.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
+      <module name="intro-fxml.list.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
+      <module name="intro-fxml.mvci-gui" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
+      <module name="intro-fxml.mvci-gui.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
+      <module name="intro-fxml.mvci-gui.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
+      <module name="intro-fxml.utilities" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
+      <module name="intro-fxml.utilities.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
+      <module name="intro-fxml.utilities.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
+    </option>
+  </component>
+</project>
