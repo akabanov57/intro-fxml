@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="io.micronaut.context.annotation.Context" />
-      <item index="1" class="java.lang.String" itemvalue="javafx.fxml.FXML" />
+      <item index="1" class="java.lang.String" itemvalue="jakarta.inject.Singleton" />
+      <item index="2" class="java.lang.String" itemvalue="javafx.fxml.FXML" />
     </list>
     <writeAnnotations>
       <writeAnnotation name="javafx.fxml.FXML" />
