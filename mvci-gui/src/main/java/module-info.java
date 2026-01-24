@@ -13,5 +13,5 @@ module intro.fxml.mvci.gui {
   exports intro.fxml;
   exports intro.fxml.api;
   exports intro.fxml.impl;
-  exports intro.fxml.handlers;
+  exports intro.fxml.actions;
 }

@@ -6,7 +6,6 @@ import jakarta.inject.Named;
 import jakarta.inject.Singleton;
 import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -22,7 +21,7 @@ final class MainViewController {
 
   private final ViewModel viewModel;
 
-  private final EventHandler<ActionEvent> saveHandler;
+  private final Runnable saveAction;
 
   @FXML
   private Button saveButton;
@@ -34,9 +33,9 @@ final class MainViewController {
   private TextField value2Field;
 
   @Inject
-  MainViewController(ViewModel viewModel, @Named("save") EventHandler<ActionEvent> saveHandler) {
+  MainViewController(ViewModel viewModel, @Named("save") Runnable saveAction) {
     this.viewModel = viewModel;
-    this.saveHandler = saveHandler;
+    this.saveAction = saveAction;
   }
 
   @FXML
@@ -58,6 +57,6 @@ final class MainViewController {
 
   @FXML
   private void onSave(ActionEvent event) {
-    saveHandler.handle(event);
+    saveAction.run();
   }
 }

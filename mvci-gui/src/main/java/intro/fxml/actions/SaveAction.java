@@ -1,4 +1,4 @@
-package intro.fxml.handlers;
+package intro.fxml.actions;
 
 import intro.fxml.api.Interactor;
 import jakarta.inject.Inject;
@@ -6,24 +6,28 @@ import jakarta.inject.Named;
 import jakarta.inject.Singleton;
 import java.util.concurrent.CompletableFuture;
 import javafx.concurrent.Task;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 
 @Singleton
 @Named("save")
-final class SaveHandler implements EventHandler<ActionEvent> {
+final class SaveAction implements Runnable {
 
   private final Interactor interactor;
 
   @Inject
-  SaveHandler(Interactor interactor) {
+  SaveAction(Interactor interactor) {
     this.interactor = interactor;
   }
 
+  /**
+   * Called from FXAT.
+   */
   @Override
-  public void handle(ActionEvent event) {
+  public void run() {
     Task<Void> saveTask = new Task<>() {
-
+      /**
+       * Running in the ForkJoinPool.commonPool()
+       * @return Void
+       */
       @Override
       protected Void call() {
         interactor.save();
