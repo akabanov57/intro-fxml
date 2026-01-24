@@ -69,21 +69,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="intro-fxml.app" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
-      <module name="intro-fxml.app.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
-      <module name="intro-fxml.app.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=app" />
       <module name="intro-fxml.domain-service" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
       <module name="intro-fxml.domain-service.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
       <module name="intro-fxml.domain-service.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=domain-service" />
-      <module name="intro-fxml.list" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
-      <module name="intro-fxml.list.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
-      <module name="intro-fxml.list.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=list" />
       <module name="intro-fxml.mvci-gui" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
       <module name="intro-fxml.mvci-gui.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
       <module name="intro-fxml.mvci-gui.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=mvci-gui" />
-      <module name="intro-fxml.utilities" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
-      <module name="intro-fxml.utilities.main" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
-      <module name="intro-fxml.utilities.test" options="-parameters -Amicronaut.processing.incremental=true -Amicronaut.processing.annotations=org.home.javafx.* -Amicronaut.processing.group=org.home.javafx -Amicronaut.processing.module=utilities" />
     </option>
   </component>
 </project>
