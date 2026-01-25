@@ -38,14 +38,17 @@ final class SaveAction implements Runnable {
         return null;
       }
     };
+    // The model update from the interactor side must occur in FXAT.
     saveTask.setOnRunning((_ -> {
       interactor.beforeStartSave();
       viewModel.setSaveTaskRunning(true);
     }));
+    // The model update from the interactor side must occur in FXAT.
     saveTask.setOnSucceeded((_ -> {
       viewModel.setSaveTaskRunning(false);
       interactor.afterRunSave();
     }));
+    // The model update from the interactor side must occur in FXAT.
     saveTask.setOnFailed((_ -> {
       viewModel.setSaveTaskRunning(false);
       interactor.afterRunSave();
