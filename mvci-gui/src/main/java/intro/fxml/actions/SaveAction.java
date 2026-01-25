@@ -1,6 +1,7 @@
 package intro.fxml.actions;
 
 import intro.fxml.api.Interactor;
+import intro.fxml.api.ViewModel;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.inject.Singleton;
@@ -11,10 +12,13 @@ import javafx.concurrent.Task;
 @Named("save")
 final class SaveAction implements Runnable {
 
+  private final ViewModel viewModel;
+
   private final Interactor interactor;
 
   @Inject
-  SaveAction(Interactor interactor) {
+  SaveAction(ViewModel viewModel, Interactor interactor){
+    this.viewModel = viewModel;
     this.interactor = interactor;
   }
 
@@ -34,6 +38,18 @@ final class SaveAction implements Runnable {
         return null;
       }
     };
+    saveTask.setOnRunning((_ -> {
+      interactor.beforeStartSave();
+      viewModel.setSaveTaskRunning(true);
+    }));
+    saveTask.setOnSucceeded((_ -> {
+      viewModel.setSaveTaskRunning(false);
+      interactor.afterRunSave();
+    }));
+    saveTask.setOnFailed((_ -> {
+      viewModel.setSaveTaskRunning(false);
+      interactor.afterRunSave();
+    }));
     CompletableFuture.runAsync(saveTask);
   }
 }

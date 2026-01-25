@@ -9,4 +9,14 @@ package intro.fxml.api;
 public interface Interactor {
 
   void save();
+
+  /**
+   * The call must be made from FXAT only.
+   */
+  void beforeStartSave();
+
+  /**
+   * The call must be made from FXAT only.
+   */
+  void afterRunSave();
 }

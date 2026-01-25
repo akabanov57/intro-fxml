@@ -16,10 +16,10 @@ repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
     maven {
-        url = uri("http://your-maven-server:8081/repository/maven-public")
+        url = uri("http://nexusrm.home.org:8081/repository/maven-snapshots")
         credentials {
-            username = "your-username"
-            password = "your-password"
+            username = "admin"
+            password = "76Ekaterina12!"
         }
         isAllowInsecureProtocol = true
     }

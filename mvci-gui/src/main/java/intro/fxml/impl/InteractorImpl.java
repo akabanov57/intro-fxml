@@ -7,13 +7,20 @@ import intro.fxml.api.ViewModel;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 import javafx.beans.binding.Bindings;
 
 @Singleton
 final class InteractorImpl implements Interactor {
 
-  private int propertyLength = 0;
+  private final AtomicInteger propertyLength = new AtomicInteger(0);
 
+  private final AtomicReference<DomainObject> domainObject = new AtomicReference<>(new DomainObject(""));
+
+  /**
+   * The model should only be accessed from FXAT.
+   */
   private final ViewModel viewModel;
 
   private final Service service;
@@ -37,34 +44,33 @@ final class InteractorImpl implements Interactor {
         .isEmpty(), viewModel.property1Property()));
   }
 
-  private void beforeStartSave() {
+  @Override
+  public void beforeStartSave() {
     viewModel.setProperty2("");
     viewModel.setSaveTaskRunning(true);
   }
 
-  private void afterStartSave() {
+  @Override
+  public void afterRunSave() {
+    viewModel.setProperty2(domainObject.get().getSomeValue());
     viewModel.setProperty1("");
-    propertyLength = 0;
+    propertyLength.set(0);
     viewModel.setSaveTaskRunning(false);
   }
 
   @Override
   public void save() {
-    beforeStartSave();
     // Exactly. Not whenComplete. Block thread here.
-    final DomainObject domainObject;
     try {
-      domainObject = service
-          .saveDataSomewhereAsync(viewModel.getProperty1() + " --> " + propertyLength)
-          .get();
-      viewModel.setProperty2(domainObject.getSomeValue());
+      domainObject.set(service
+          .saveDataSomewhereAsync(viewModel.getProperty1() + " --> " + propertyLength.get())
+          .get());
     } catch (InterruptedException | ExecutionException e) {
       e.printStackTrace();
     }
-    afterStartSave();
   }
 
   private void updatePropertyLength(int value) {
-    propertyLength = value;
+    propertyLength.set(value);
   }
 }
